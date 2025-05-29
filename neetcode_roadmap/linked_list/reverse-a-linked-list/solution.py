@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.next = next
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if head == None: # if the list is empty
